@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+button{
+    height: 40px;
+    width: 50px;
+    color: aliceblue;
+    border: 2px green solid;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fan{
+    margin-bottom: 50px;
+    animation: fanaim linear infinite;
+}
+@keyframes fanaim {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.main{
+    z-index: 5;
+}

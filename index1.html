@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/fan.css">
+</head>
+<body>
+    <div class="main">
+        <img  id="fan" src="/image.png" alt=""> <br> <br>
+        <button onclick="funon()">ON</button>
+        <button onclick="funoff()">OFF</button>
+        <button onclick="fun1()">1</button>
+        <button onclick="fun2()">2</button>
+        <button onclick="fun3()">3</button>
+    </div>
+</body>
+<script>
+    let a=document.getElementById("fan");
+ function funoff(){
+    a.style.animationDuration = 0+"s"
+ }
+ function funon(){
+    a.style.animationDuration = 3+"s"
+ }
+ function fun1(){
+    a.style.animationDuration = 1+"s"
+ }
+ function fun2(){
+    a.style.animationDuration = 0.5+"s"
+ }
+ function fun3(){
+    a.style.animationDuration = 0.1+"s"
+ }
+ 
+ 
+ 
+ 
+</script>
+</html>
